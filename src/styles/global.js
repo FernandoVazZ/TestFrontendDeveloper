@@ -8,6 +8,8 @@ export const Global = createGlobalStyle`
   :root {
       font-size: 24px;
       background-color: #F1F3F6;
+      min-width: 100%;
+      min-height: 100%;
 
       @media (min-width: 768px) {
         font-size: 18px;
